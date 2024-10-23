@@ -113,7 +113,7 @@ divs.forEach((div,index)=>{
 function addCrossAndCircles(curr,e){
   //  e.target.innerHTML="";
       const img=document.createElement('img');
-      img.src=`/images/2A.png`;
+      img.src=`/images/${curr}.png`;
       e.target.appendChild(img);
       return img
 }
